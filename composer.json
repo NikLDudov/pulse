@@ -1,0 +1,21 @@
+{
+    "name": "scottlaurent/pulse",
+    "description": "Cache-based repository for building simple dashboards with websockets",
+    "license": "MIT",
+    "keywords": ["laravel", "cache", "websockets", "dashboards"],
+    "authors": [
+        {
+            "name": "Scott Laurent",
+            "email": "scott@baselineapplications.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "5.2.*",
+        "pusher/pusher-php-server": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scottlaurent\\Pulse\\": "src/"
+        }
+    }
+}
