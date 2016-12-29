@@ -10,7 +10,6 @@
         }
     ],
     "require": {
-        "laravel/framework": "5.2.*",
         "pusher/pusher-php-server": "~2.0"
     },
     "autoload": {
